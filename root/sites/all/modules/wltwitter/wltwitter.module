@@ -21,7 +21,7 @@ function wltwitter_block($op = 'list', $delta = 0) {
         case 0:
           return array(
             'subject' => 'Friss csiripek',
-            'content' => '<div class="hfeed" id="block-wltwitter-list"><em>Csiripek betöltése&hellip;</em></div><div class="more-link"><a rel="external" href="http://search.twitter.com/search?q=%23weblabor">további csiripek&raquo;</a></div>'
+            'content' => '<div class="hfeed" id="block-wltwitter-list"><em>Csiripek betöltése&hellip;</em></div><div class="more-link"><a rel="external" href="http://twitter.com/search/realtime?q=%23weblabor">további csiripek&raquo;</a></div>'
           );
       }
       break;
